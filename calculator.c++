@@ -43,7 +43,7 @@ int calculate(int num1, int num2, char mathOperator) {
         case '/':
             answer = num1 / num2;
             break;
-        case '|':
+        case '^':
             answer = std::pow(num1, num2);
         }
 
